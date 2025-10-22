@@ -53,8 +53,8 @@ Examples:
 
 ```bash
 python for_pdf/pdf_minimize.py \
-  '/Users/foo/projects/video_cutter/original.pdf' \
-  '/Users/foo/projects/video_cutter/small.pdf' \
+  '/path/to/original.pdf' \
+  '/path/to/small.pdf' \
   --percent 40
 ```
 
@@ -62,8 +62,8 @@ python for_pdf/pdf_minimize.py \
 
 ```bash
 python for_pdf/pdf_minimize.py \
-  'input.pdf' \
-  'output_selected_pages.pdf' \
+  '/path/to/input.pdf' \
+  '/path/to/output_selected_pages.pdf' \
   --percent 50 \
   --pages '3,5,7-10' \
   -m pypdf2
