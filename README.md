@@ -1,5 +1,7 @@
 # Document Helper: PDF Tools
 
+[![Python tests](https://github.com/zemags/doc_helper/actions/workflows/python-tests.yml/badge.svg)](https://github.com/zemags/doc_helper/actions/workflows/python-tests.yml)
+
 Utilities to:
 - minimize a PDF by a target percent and save as a new file
 - split a PDF into N separate parts and save each part as its own PDF
